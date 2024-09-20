@@ -1,0 +1,27 @@
+{
+	"name": "vortateko",
+	"version": "0.0.1",
+	"description": "Vortateko: The open library for dictionaries",
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"dev": "tsx watch src/index.ts",
+		"lint": "tsc",
+		"ci": "tsup"
+	},
+	"keywords": ["Language learning", "Scraping", "Dictionaries", "Dictionary"],
+	"author": "osvfj",
+	"license": "MIT",
+	"packageManager": "pnpm@9.10.0",
+	"dependencies": {
+		"cheerio": "1.0.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.0",
+		"@changesets/cli": "2.27.8",
+		"tsup": "8.2.4",
+		"tsx": "4.19.1",
+		"typescript": "5.6.2"
+	}
+}
