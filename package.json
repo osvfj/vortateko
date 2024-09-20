@@ -1,6 +1,6 @@
 {
 	"name": "vortateko",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Vortateko: The open library for dictionaries",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
@@ -10,7 +10,12 @@
 		"lint": "tsc",
 		"ci": "tsup"
 	},
-	"keywords": ["Language learning", "Scraping", "Dictionaries", "Dictionary"],
+	"keywords": [
+		"Language learning",
+		"Scraping",
+		"Dictionaries",
+		"Dictionary"
+	],
 	"author": "osvfj",
 	"license": "MIT",
 	"packageManager": "pnpm@9.10.0",
